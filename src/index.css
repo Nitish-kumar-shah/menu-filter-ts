@@ -1,0 +1,12 @@
+@import "tailwindcss";
+.filter-btn {
+  @apply bg-transparent border shadow-sm shadow-red-500 text-[1rem] capitalize mx-2 tracking-wider 
+         rounded-lg px-3 py-1.5 text-yellow-500 cursor-pointer transition-all duration-800;
+}
+
+.filter-btn:hover {
+  @apply bg-orange-600 text-white;
+}
+body {
+  padding: 50px 0;
+}
