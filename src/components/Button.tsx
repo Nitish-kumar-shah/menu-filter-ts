@@ -1,5 +1,3 @@
-import React from "react";
-
 interface ButtonProps {
   onClickHandler: (event: React.MouseEvent<HTMLButtonElement>) => void;
   value: string;

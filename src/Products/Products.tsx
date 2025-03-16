@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "../components/Card";
 
 interface ProductsProps {
   result: any;
